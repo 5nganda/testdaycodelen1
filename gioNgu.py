@@ -1,5 +1,5 @@
 from datetime import datetime, timedelta
-
+print("Tôi la nguyen quoc viet.")
 def tinh_gio_di_ngu(thoi_gian_thuc_day, so_gio_ngu=8):
     # Chuyển đổi chuỗi giờ thành đối tượng datetime
     try:
@@ -15,3 +15,5 @@ so_gio_ngu = int(input("Nhập số giờ ngủ mong muốn: "))
 
 gio_di_ngu = tinh_gio_di_ngu(thoi_gian_thuc_day, so_gio_ngu)
 print(f"Bạn nên đi ngủ lúc: {gio_di_ngu}")
+
+print(f"Bạn nên đi ngủ lúc: 7:00")
