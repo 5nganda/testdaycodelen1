@@ -1,7 +1,8 @@
 print("hallo")
 for i in range(5):
-    a += 1
-    b += 2
-    d = 3
-    c = 5
-    print(a, b, c)
+    a = 1
+    b = 2
+    c = 3     
+    print(a + b + c)
+
+
