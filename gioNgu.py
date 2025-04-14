@@ -1,5 +1,5 @@
 from datetime import datetime, timedelta
-
+print("Tôi la nguyen quoc viet.")
 def tinh_gio_di_ngu(thoi_gian_thuc_day, so_gio_ngu=8):
 
     try:
@@ -20,3 +20,7 @@ print(f"Số giờ ngủ mong muốn: {so_gio_ngu}")
 print(f"Bạn nên đi ngủ lúc: {gio_di_ngu}")
 print("hallo")
 print("hallo")      
+gio_di_ngu = tinh_gio_di_ngu(thoi_gian_thuc_day, so_gio_ngu)
+print(f"Bạn nên đi ngủ lúc: {gio_di_ngu}")
+
+print(f"Bạn nên đi ngủ lúc: 7:00")
