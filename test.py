@@ -1,4 +1,6 @@
 print("hallo")
+print("hallo")
+#     print(a, b, c)    
 for i in range(5):
     a += 1
     b += 2
